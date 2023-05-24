@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby > gatsby-cli > gatsby-recipes > gatsby-telemetry > lodash:
+        patched: '2023-05-24T19:11:32.263Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-24T19:11:32.263Z'
+    - '@primer/gatsby-theme-doctocat > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash':
+        patched: '2023-05-24T19:11:32.263Z'
