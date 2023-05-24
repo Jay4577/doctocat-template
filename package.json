@@ -5,12 +5,16 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "now-build": "yarn run build"
+    "now-build": "yarn run build",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@primer/gatsby-theme-doctocat": "^3.1.0",
-    "gatsby": "^2.13.25",
+    "gatsby": "^4.0.0",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  }
+    "react-dom": "^16.9.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
