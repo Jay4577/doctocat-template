@@ -8,8 +8,8 @@
     "now-build": "yarn run build"
   },
   "dependencies": {
-    "@primer/gatsby-theme-doctocat": "^3.1.0",
-    "gatsby": "^2.13.25",
+    "@primer/gatsby-theme-doctocat": "^5.1.0",
+    "gatsby": "^5.14.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
